@@ -1,0 +1,14 @@
+listen: ":8080"
+modules: 
+- onts
+- central
+mysql:
+  host: "127.0.0.1"                
+  password: "123456"     
+  username: root    
+  database: test       
+  port: 3306       
+  connMaxOpen: 10         
+  connMaxIdle: 5      
+  connMaxLifeTime: "8h"     
+  connMaxIdleLifeTime : "30m"
